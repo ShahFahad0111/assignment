@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Professional Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-green-600 text-white p-6 shadow-lg">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl font-bold">My Professional Blog</h1>
+        <p class="text-lg mt-1">Travel Stories & Web Development Tutorials</p>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-10 px-4 space-y-16">
+      <!-- Travel Blogs Section -->
+      <section>
+        <h2 class="text-3xl font-bold text-green-800 mb-6">
+          🌄 Travel Diaries
+        </h2>
+
+        <!-- Kumrat Valley -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+          <h3 class="text-2xl font-semibold text-green-700">Kumrat Valley</h3>
+          <img
+            src="./download (1).jpg"
+            alt="Kumrat Valley"
+            class="w-full rounded-xl my-4"
+          />
+          <p>
+            Kumrat Valley is located in the Upper Dir District of Khyber
+            Pakhtunkhwa, Pakistan. Known for its towering Deodar trees,
+            crystal-clear Panjkora River, and untouched wilderness, it's ideal
+            for those seeking peace and natural beauty. The valley remains
+            relatively unexplored, preserving its serenity.
+          </p>
+        </article>
+
+        <!-- Jahaz Banda -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg mt-8">
+          <h3 class="text-2xl font-semibold text-green-700">Jahaz Banda</h3>
+          <img
+            src="./download (2).jpg"
+            alt="Jahaz Banda"
+            class="w-full rounded-xl my-4"
+          />
+          <p>
+            Jahaz Banda is a stunning meadow in the Kumrat region, accessible
+            through a hiking trail from Thal. It sits at an elevation of 3,100
+            meters and offers panoramic views of surrounding peaks. It's a
+            perfect site for overnight camping under a sky full of stars.
+          </p>
+        </article>
+
+        <!-- Katora Lake -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg mt-8">
+          <h3 class="text-2xl font-semibold text-green-700">Katora Lake</h3>
+          <img
+            src="./download.jpg"
+            alt="Katora Lake"
+            class="w-full rounded-xl my-4"
+          />
+          <p>
+            Located near Jahaz Banda, Katora Lake is a glacial lake shaped like
+            a bowl ("katora" in Urdu). Reaching it involves a moderate hike
+            through pine forests, alpine meadows, and streams. The lake reflects
+            surrounding snow-covered peaks, creating an otherworldly scene.
+          </p>
+        </article>
+      </section>
+
+      <!-- Web Development Blogs Section -->
+      <section>
+        <h2 class="text-3xl font-bold text-blue-800 mb-6">
+          💻 Web Development
+        </h2>
+
+        <!-- HTML Basics -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+          <h3 class="text-2xl font-semibold text-blue-700">
+            Getting Started with HTML
+          </h3>
+          <p class="mt-4">
+            HTML (HyperText Markup Language) is the foundation of all web pages.
+            It defines the structure and layout of a website. Every element on a
+            page—like headings, paragraphs, links, and images—is made using HTML
+            tags. Here’s a simple example:
+          </p>
+          <pre class="bg-gray-100 p-4 mt-4 rounded text-sm overflow-auto">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;&lt;title&gt;My Site&lt;/title&gt;&lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome to my blog&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </pre
+          >
+        </article>
+
+        <!-- Tailwind CSS -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg mt-8">
+          <h3 class="text-2xl font-semibold text-blue-700">
+            Styling with Tailwind CSS
+          </h3>
+          <p class="mt-4">
+            Tailwind CSS is a utility-first CSS framework that allows you to
+            build modern designs fast. Instead of writing custom CSS, you apply
+            pre-built classes directly to HTML elements. For example, a button:
+          </p>
+          <pre class="bg-gray-100 p-4 mt-4 rounded text-sm overflow-auto">
+&lt;button class="bg-blue-500 text-white px-4 py-2 rounded"&gt;
+  Click Me
+&lt;/button&gt;
+        </pre
+          >
+          <p class="mt-2">
+            Tailwind is excellent for responsive, mobile-first designs and works
+            great with modern front-end tools.
+          </p>
+        </article>
+
+        <!-- GitHub Pages -->
+        <article class="bg-white p-6 rounded-2xl shadow hover:shadow-lg mt-8">
+          <h3 class="text-2xl font-semibold text-blue-700">
+            Deploying Websites with GitHub Pages
+          </h3>
+          <p class="mt-4">
+            GitHub Pages lets you host static websites for free directly from a
+            repository. To set it up:
+          </p>
+          <ul class="list-disc list-inside mt-2 text-gray-700">
+            <li>Create a public repository</li>
+            <li>Upload your HTML/CSS files</li>
+            <li>Go to Settings > Pages</li>
+            <li>
+              Choose the branch (e.g., <code>main</code>) and folder (usually
+              <code>/root</code>)
+            </li>
+          </ul>
+          <p class="mt-2">
+            Your site will be live at
+            <code>https://yourusername.github.io/reponame</code>.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-600 py-8">
+      &copy; 2025 My Blog | Built with ❤️ using Tailwind CSS & GitHub Pages
+    </footer>
+  </body>
+</html>
